@@ -5,6 +5,8 @@ import About from './About';
 import Footer from './Footer'
 import Header from './Header'
 import Contact from './Contact'
+import Ertu  from './Ertu'
+import Osman from './Osman'
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
                 </Route>
                 <Route path="/contact">
                   <Contact />
+                </Route>
+                <Route path="/ertu">
+                  <Ertu/>
+                </Route>
+                <Route path="/osman">
+                  <Osman/>
                 </Route>
                 <Route path="/">
                   <Home />
