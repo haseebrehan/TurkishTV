@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import {Carousel} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 function Home() {
     return (
     <>
@@ -68,7 +69,7 @@ function Home() {
                             <p className="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi inventore, quas voluptate sed dignissimos.
                             </p>
-                            <a href="/ertu" className="btn btn-dark">Watch Series</a>
+                            <Link to="/ertu/se1" className="btn btn-dark">Watch Series</Link>
                         </div>
                     </div>
                 </div>
