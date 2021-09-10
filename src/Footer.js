@@ -6,7 +6,7 @@ import { FaInstagram,FaGithub, FaFacebookSquare, FaTwitterSquare} from "react-ic
 import MapContainer from "./MapContainer";
 
 const Footer = () => 
-<footer className="p-5 bg-danger text-white">
+<footer className="pt-1 pb-5 bg-danger text-white">
   <div className="container">
       <div className="row">
                 <div className="col-md-4 text-center align-self-center">

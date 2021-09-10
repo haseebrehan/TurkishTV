@@ -5,85 +5,84 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
     <>
-      <section className="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <section className="bg-secondary text-light pt-5 pl-5 text-center text-sm-start">
       <div className="container">
-        <div className="d-sm-flex align-items-center justify-content-between">
-          <div>
+        <div className="d-sm-flex justify-content-between">
+          <div className="col-10">
             <h1>Enjoy Turkish <span className="text-warning">Series </span></h1>
-            <p className="lead my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, odit cumque inventore dignissimos consectetur, sapiente minima, velit maxime voluptates explicabo cum sit blanditiis? Sapiente, officiis! Consectetur praesentium ipsam quod saepe!</p>
+            <h3 className="lead my-4">Website is dediacted to see Famous Turkish series Ertugrul Ghazi & Kurulus Osman, the father of Osman who founded the Ottoman Empire. 
+            This series is created by Mehmet Bozdag (2020). The show is famous in Turkey & abroad</h3>
           </div>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Turkey-tv-stub.svg"  width="200" height="150" alt="showcase"/>
+          <img className="col-3" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Turkey-tv-stub.svg"  width="200" height="150" alt="showcase"/>
         </div>
       </div>
     </section>
 
-  <section className=" text-light p-4 ">
+  <section className=" bg-dark p-4 ">
       <div className="container1 m-auto">
         <Carousel>
             <Carousel.Item>
               <img
-                className="d-block w-100 mx-auto"
-                src="https://cdn.siasat.com/wp-content/uploads/2020/04/Ertugrul.webp"
+                className="d-block w-75  mx-auto"
+                src="https://tigrepelvar.files.wordpress.com/2019/08/20180119034434m.png?w=584"
                 alt="First slide"/>
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Dirilis Ertugrul</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
               <img
-                className="d-block  w-100 h-75 mx-auto"
+                className="d-block  w-75  mx-auto"
                 src="https://myinfomaster.com/wp-content/uploads/2020/05/thumb-1920-645099-1536x864.jpg"
                 alt="Second slide"/>
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Dirilis Ertugrul</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
           <img
-            className="d-block  w-100 mx-auto"
+            className="d-block  w-75  mx-auto"
             src="https://www.bbcnews1.com/wp-content/uploads/2021/06/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D9%82%D9%8A%D8%A7%D9%85%D8%A9-%D8%B9%D8%AB%D9%85%D8%A7%D9%86-64.jpg"
             alt="Third slide"/>
 
                     <Carousel.Caption>
-                      <h3>Third slide label</h3>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      <h3>Kurlus Osman</h3>
                     </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
     </div>
   </section>
   {/* Section- Series */}
-  <section className="p-5">
-        <div className="container">
+  <section>
+        <div className="container mx-auto">
             <div className="row text-center g-4">
-                <div className="col-md">
+                <div className="col-md-6">
                     <div className="card bg-secondary text-light mt-2">
                         <div className="card-body text-center">
                             <h3 className="card-title mb-3">
-                                Ertugrul Ghazi
+                            Dirilis Ertugrul
                             </h3>
-                            <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2018/11/06/thumbs_b_c_66b4118acfb58dbd9b4996a5790d377f.jpg?v=153328" width="100%" alt="" />
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi inventore, quas voluptate sed dignissimos.
+                            <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2018/11/06/thumbs_b_c_66b4118acfb58dbd9b4996a5790d377f.jpg?v=153328" width="100%" height="350px" alt="" />
+                            <p className="card-text pt-1">
+                            Diriliş: Ertuğrul is a Turkish historical fiction and adventure television series produced by Mehmet Bozdağ for TRT, starring Engin Altan Düzyatan as Ertuğrul Bey.
                             </p>
-                            <Link to="/ertu/se1" className="btn btn-dark">Watch Series</Link>
+                            <Link to="/ertu" className="btn btn-primary">Watch Series</Link>
                         </div>
                     </div>
                 </div>
-                <div className="col-md">
-                    <div className="card bg-dark text-light mt-2">
+                <div className="col-md-6 mb-3">
+                    <div className="card bg-dark text-light">
                         <div className="card-body text-center">
-                            <h3 className="card-title m-3">
+                            <h3 className="card-title mb-3">
                                 Kurulus Osman
                             </h3>
-                            <img src="https://i.ytimg.com/vi/ccszFWqdo1E/maxresdefault.jpg" width="100%" height="270px" alt="" />
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi inventore, quas voluptate sed dignissimos.
+                            <img src="https://mydirilisertugrul.com/wp-content/uploads/2020/08/s6-1.jpg" width="100%" height="350px" alt="" />
+                            <p className="card-text pt-2">
+                            Kuruluş: Osman is a Turkish historical drama television series created by Mehmet Bozdağ and starring Burak Özçivit in the
+                             titular role.It focuses on the life of Osman I, founder of the Ottoman Empire.
                             </p>
-                            <a href="/osman" className="btn btn-primary">Watch Series</a>
+                            <Link to="/osm" className="btn btn-primary">Watch Series</Link>
                         </div>
                     </div>
                 </div>

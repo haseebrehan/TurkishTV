@@ -1,10 +1,48 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import { CgArrowLeftO } from "react-icons/cg";
 
 function Osman() {
     return (
-        <div>
-           <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2018/11/06/thumbs_b_c_66b4118acfb58dbd9b4996a5790d377f.jpg?v=153328" alt="" />
-        </div>
+            <section className="p-5">
+                
+            <div className="container">
+                <div className="row text-center g-4 d-flex justify-content-center">
+                    <div className="col-md-4">
+                        <div className="card bg-secondary text-light mt-2">
+                            <div className="card-body text-center">
+                                <h3 className="card-title mb-3">
+                                Kurulus Osman Season 1
+                                </h3>
+                                <img src="https://i.ytimg.com/vi/ccszFWqdo1E/maxresdefault.jpg" width="100%" alt="" />
+                                <p className="card-text">
+                                Kuruluş: Osman is a Turkish historical drama television series created by Mehmet Bozdağ
+                                </p>
+                                <Link to="/osm/se1" className="btn btn-primary">Watch Season 1</Link>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div className="col-md-4">
+                        <div className="card bg-dark text-light mt-2">
+                            <div className="card-body text-center">
+                                <h3 className="card-title mb-3">
+                                Kurulus Osman Season 2
+                                </h3>
+                                <img src="https://i.ytimg.com/vi/ccszFWqdo1E/maxresdefault.jpg" width="100%" alt="" />
+                                <p className="card-text">
+                                Kuruluş: Osman is a Turkish historical drama television series created by Mehmet Bozdağos.
+                                </p>
+                                <Link to="/osm/se2" className="btn btn-primary">Watch Season 2</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/home" className="position-relative align-self-center mt-3">
+                      <CgArrowLeftO size="2em" color='red' /> <p>Go Back</p></a>
+            </div>
+          </section>
+          
     )
 }
 

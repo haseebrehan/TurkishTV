@@ -8,13 +8,13 @@ class MapContainer extends Component {
     center: {
       lat: 4.60971, lng: -74.08175
     },
-    zoom: 8
+    zoom: 11
   };
 
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '30vh', width: '100%' }}>
+      <div className="p-3 mx-auto" style={{ height: '30vh', width: '70%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyAGsw3PmABM5k5Ixt1FUvhwuj7AA9CKD-U' }}
           defaultCenter={this.props.center}

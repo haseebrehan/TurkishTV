@@ -1,16 +1,16 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Home from './Home';
-import About from './About';
 import Footer from './Footer'
 import Header from './Header'
-import Contact from './Contact'
 import Ertu  from './Ertu'
 import Osman from './Osman'
-import Video1 from './video1';
-
-//import CallApi from './callApi';
+import Pages1 from './pages1'
+import Pages2 from './pages2'
+import Pages3 from './pages3'
+import Pagos1 from './pagos1'
+import Pagos2 from './pagos2'
+import Contact from './About';
 
 function App() {
   return (
@@ -19,9 +19,6 @@ function App() {
         <Router>
         <Header/>
             <Switch>
-                <Route path="/about">
-                  <About />
-                </Route>
                 <Route path="/contact">
                   <Contact />
                 </Route>
@@ -29,10 +26,22 @@ function App() {
                   <Ertu/>
                 </Route>
                 <Route path="/ertu/se1">
-                <Video1/>
+                <Pages1/>
                 </Route>
-                <Route path="/osman">
+                <Route path="/ertu/se2">
+                <Pages2/>
+                </Route>
+                <Route path="/ertu/se3">
+                <Pages3/>
+                </Route>
+                <Route exact path="/osm">
                   <Osman/>
+                </Route>
+                <Route path="/osm/se1">
+                <Pagos1/>
+                </Route>
+                <Route path="/osm/se2">
+                <Pagos2/>
                 </Route>
                 <Route path="/">
                   <Home />
