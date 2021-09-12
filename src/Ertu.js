@@ -5,7 +5,7 @@ import { CgArrowLeftO } from "react-icons/cg";
 function Ertu() {
     return (
         
-        <section className="p-5">
+        <section className="p-md-5 p-2">
             
         <div className="container">
             <div className="row text-center g-4">

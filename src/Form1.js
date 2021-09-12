@@ -35,11 +35,11 @@ export default function Form1() {
 
   return (
     <>
-    <section className="bg-secondary text-light mb-4 p-3 mt-3  center">
-        <div className="container">
+    <section className="bg-secondary text-light mb-4 p-1 mt-3  center">
+        <div className="containerF">
         <form  onSubmit={sendEmail}>
           <h3>Contact Us:</h3>
-          <div className="form-group col-8 col-md-10">
+          <div className="form-group col-10 col-md-10">
           <label>Name</label>
           <input className="form-control" 
               type='text'
@@ -50,7 +50,7 @@ export default function Form1() {
 
             />
           </div>
-          <div className="form-group col-8 col-md-10">
+          <div className="form-group col-10 col-md-10">
           <label>Email</label>
           <input className="form-control" 
            name='reply_to'
@@ -59,7 +59,7 @@ export default function Form1() {
             onChange={handleChange} 
           />
           </div>
-          <div className="form-group col-8 col-md-10">
+          <div className="form-group col-10 col-md-10">
           <label>Message</label>
           <textarea className="form-control"
             name='message'

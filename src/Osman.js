@@ -4,11 +4,11 @@ import { CgArrowLeftO } from "react-icons/cg";
 
 function Osman() {
     return (
-            <section className="p-5">
+            <section className="p-md-5 p-2">
                 
             <div className="container">
                 <div className="row text-center g-4 d-flex justify-content-center">
-                    <div className="col-md-4">
+                    <div className="col-md-6">
                         <div className="card bg-secondary text-light mt-2">
                             <div className="card-body text-center">
                                 <h3 className="card-title mb-3">
@@ -23,7 +23,7 @@ function Osman() {
                         </div>
                     </div>
     
-                    <div className="col-md-4">
+                    <div className="col-md-6">
                         <div className="card bg-dark text-light mt-2">
                             <div className="card-body text-center">
                                 <h3 className="card-title mb-3">

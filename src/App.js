@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import {Switch,Route} from "react-router-dom";
 import Home from './Home';
 import Footer from './Footer'
 import Header from './Header'
@@ -16,31 +16,30 @@ function App() {
   return (
     
     <header>
-        <Router>
         <Header/>
             <Switch>
-                <Route path="/contact">
+                <Route exact path="/contact">
                   <Contact />
                 </Route>
                 <Route exact path="/ertu">
                   <Ertu/>
                 </Route>
-                <Route path="/ertu/se1">
+                <Route exact path="/ertu/se1">
                 <Pages1/>
                 </Route>
-                <Route path="/ertu/se2">
+                <Route exact path="/ertu/se2">
                 <Pages2/>
                 </Route>
-                <Route path="/ertu/se3">
+                <Route exact path="/ertu/se3">
                 <Pages3/>
                 </Route>
                 <Route exact path="/osm">
                   <Osman/>
                 </Route>
-                <Route path="/osm/se1">
+                <Route exact path="/osm/se1">
                 <Pagos1/>
                 </Route>
-                <Route path="/osm/se2">
+                <Route exact path="/osm/se2">
                 <Pagos2/>
                 </Route>
                 <Route path="/">
@@ -48,7 +47,6 @@ function App() {
                 </Route>
             </Switch>
             <Footer/>
-        </Router>
       </header>
   );
 }

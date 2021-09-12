@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(85, 82, 82);
 }
 
 code {
@@ -13,14 +13,16 @@ code {
     monospace;
 }
 
-.container {
-  margin-left: 40px;
-  margin-top: 40px;
-}
-
 .container1 {
   width: 70%;
 }
+.containerF {
+  margin-left: 40px;
+  margin-top: 40px;
+  padding-left: 0%;
+  padding-right:0%
+}
+
 
 
 img {
