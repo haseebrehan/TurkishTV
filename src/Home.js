@@ -60,7 +60,7 @@ function Home() {
   <section>
         <div className="container mx-auto">
             <div className="row text-center d-flex justify-content-md-center">
-                <div className="col-md-5 mt-5 mb-3">
+                <div className="col-md-6 mt-5 mb-3">
                     <div className="card bg-secondary text-light mt-2">
                         <div className="card-body text-center">
                             <h3 className="card-title mb-3">
@@ -74,7 +74,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-5 mt-5 mb-3">
+                <div className="col-md-6 mt-5 mb-3">
                     <div className="card bg-dark text-light">
                         <div className="card-body text-center">
                             <h3 className="card-title mb-3">

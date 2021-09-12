@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import Pagination from './Pagination';
 import { CgArrowLeftO } from "react-icons/cg";
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import data from './data/dataes3s.json'
 
@@ -19,8 +20,8 @@ export default function Pages2() {
   return (
     <>
           <div className="container p-3 mx-auto">
-              <a href="/ertu" className="position-relative align-self-center">
-                          <CgArrowLeftO size="2em" color='red' /> <p>Go Back</p></a>
+              <Link to="/ertu" className="position-relative align-self-center">
+                          <CgArrowLeftO size="2em" color='red' /> <p>Go Back</p></Link>
               <h2 className="bg-danger text-light text-center">Season 3 Ertugul Ghazi</h2>
           <div className="row mt-4">
 

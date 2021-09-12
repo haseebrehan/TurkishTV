@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
         <section className="bg-dark text-light text-center p-3 text-sm-start">
-      <div className="container">
+      <div className="container p-5">
         <div className="d-sm-flex justify-content-center">
           <div className="col-10">
             <h1>Turkish <span className="text-warning">Series </span></h1>

@@ -38,8 +38,8 @@ function Osman() {
                         </div>
                     </div>
                 </div>
-                <a href="/home" className="position-relative align-self-center mt-3">
-                      <CgArrowLeftO size="2em" color='red' /> <p>Go Back</p></a>
+                <Link to="/home" className="position-relative align-self-center mt-3">
+                      <CgArrowLeftO size="2em" color='red' /> <p>Go Back</p></Link>
             </div>
           </section>
           

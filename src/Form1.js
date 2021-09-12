@@ -35,8 +35,8 @@ export default function Form1() {
 
   return (
     <>
-    <section className="bg-secondary text-light mb-4 p-1 mt-3  center">
-        <div className="containerF">
+    <section className=" text-light mb-4 p-1 mt-3  center d-none d-sm-block">
+        <div className="containerF ">
         <form  onSubmit={sendEmail}>
           <h3>Contact Us:</h3>
           <div className="form-group col-10 col-md-10">
